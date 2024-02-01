@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  :root{
+    --body-background-color: white;
+    --boddy-color:black;
+    --user-color:  rgba(0, 0, 0, 0.1);
+  }
+  [data-theme="dark"]{
+    --body-background-color: black;
+    --boddy-color:white;
+    --user-color: #4d4c4b;
+  }
